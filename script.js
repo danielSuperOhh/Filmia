@@ -22,7 +22,7 @@ function toggleMenu(){
 
 // ======================== SIGN UP ===============================
 let modal =document.getElementById("mymodal");
-let btn = document.getElementById("mybtnn");
+let btn = document.getElementById("mybtns");
 // let btnn = document.getElementById("mybtnn")
 let secmodal = document.getElementById("sec-modal");
 let firstmodal = document.getElementById("first-modal");
