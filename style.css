@@ -121,21 +121,13 @@ body{
     width: 100px;
     padding: 0 10px 10px 10px;
     text-align: center;
-    /* color: #363949; */
-}
-
-.nav-signup:hover{
-    width: 100px;
-    text-align: center;
     cursor: pointer;
-    padding: 0 10px 10px 10px;
     background: var(--color-primary);
     border-radius: 5px;
-    transition: 1s;
-    margin-top: 0;
 }
 
-.nav-signup:hover a{
+
+.nav-signup a{
     color: #fafafa;
 }
 
@@ -1246,18 +1238,6 @@ footer a:hover{
         text-align: center;
         display: none;
         z-index: 500;
-    }
-
-    .nav-signup:hover{
-        pointer-events: none;
-        /* width: 100px; */
-        text-align: center;
-        cursor: pointer;
-        padding: 0;
-        background: none;
-        border-radius: 0;
-        transition: 0;
-        margin-top: 0;    
     }
         
     .navigation .links{
