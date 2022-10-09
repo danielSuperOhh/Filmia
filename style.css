@@ -47,7 +47,7 @@ body{
     position: sticky;
     top: 0;
     left: 0;
-    z-index: 99;
+    z-index: 500;
     /* box-shadow: var(--box-shadow); */
 }
 
@@ -286,7 +286,7 @@ body{
 .modal{
     display: none;
     position: fixed;
-    z-index: 100;
+    z-index: 1000;
     left: 0;
     top: 0;
     width: 100%;
@@ -546,7 +546,7 @@ body{
     margin: auto;
     height: fit-content;
     padding-top: 70px;
-    z-index: 99;
+    z-index: 9;
 }
 
 .carousel .card{
@@ -1245,7 +1245,7 @@ footer a:hover{
         justify-content: center;
         text-align: center;
         display: none;
-        z-index: 99;
+        z-index: 500;
     }
 
     .navigation .links{
