@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filmia</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/fav-icon.png"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <section class="nav" id="navi">
+        <div class="container">
+            <div class="top-head">
+                <div class="logo">
+                    <div class="logo-container">
+                        <img src="./img/Flixia logo.PNG" alt="">
+                    </div>
+                </div>
+
+
+                
+                <div class="navigation" id="navigation">
+                    <div class="spacer"></div>
+                    <ul class="links">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Watch</a></li>
+                    </ul>
+
+                    <div class="nav-signup">
+                        <div class="log-in">
+                            <a href="#" class="button" id="mybtns">Login</a>
+                        </div>
+                    </div>
+
+                    <div class="top">
+                        <div class="theme-toggler">
+                            <i class='bx bxs-sun activee'></i>
+                            <i class='bx bxs-moon' ></i>
+                        </div>
+                    </div>
+    
+                </div>
+    
+
+                <div class="menu-icon" onclick="toggleMenu()">
+                    <i class='bx bx-menu' ></i>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="first-section">
+        <div class="container">
+            <div class="section1">
+                <div class="banner-writeup">
+                    <div class="ban-writeup">
+                        <h3>Watch Your <br><span style="color: #428dfd;">Favourite</span>  Movie <br> with Your Partner</h3>
+                        <p>The easiest wat to watch your favourite movie with <br>
+                        your partner, friend, family and your beloved one. <br>
+                        Together is better than lonely</p>
+                    </div>
+                    
+                    <div class="banner-buttons">
+                        <div class="banner-button">
+                            <a href="">Learn More</a>
+                        </div>
+
+                        <div class="banner-btn-text">
+                            <p>About us</p>
+                        </div>
+                    </div>
+                    
+                </div>
+
+
+                <div class="banner-img">
+                    <div class="ban-img"></div>
+                    <div class="ban-img2"></div>
+
+                </div>
+
+
+                <div id="mymodal" class="modal">
+                    <div class="modal-content" id="first-modal">
+                        <div class="close-btn">
+                            <i class='bx bx-x close'></i>
+                        </div>
+
+                        <div class="sign-in">
+                            <h2>Sign in</h2>
+                        </div>
+                            
+                        <div class="inputs">
+                            <div class="inpt">
+                                <input type="email" name="email" placeholder="Email or phone number"> <br>          
+                                <input type="password" name="password" placeholder="Password"> <br>                            
+                            </div>
+                        </div>
+
+                        <div class="ticked">
+                            <div class="check">
+                                <input type="checkbox" id="myCheck" onclick="myFunction()" class="mycheck">
+                                <h4>Remember me</h4>
+                            </div>        
+                        </div>
+
+                        <div class="sign-btn">
+                            <button>
+                                <p>Sign in</p>
+                                </button>
+                            </div>
+
+                        <div class="new-to-flimia">
+                            <h4 >New to Filmia? <span id="toggle" onclick="myFunction()">Sign up</span></h4>
+                        </div>
+                    </div>
+
+
+                    <div class="modal-contentt" id="sec-modal" >
+                        <div class="close-btn">
+                            <i class='bx bx-x close'></i>
+                        </div>
+
+                        <div class="sign-in">
+                            <h2>Sign up</h2>
+                        </div>
+                        
+                        <div class="inputs">
+                            <div class="inpt">
+                                <input type="email" name="email" placeholder="Email or phone number"> <br>          
+                                <input type="password" name="password" placeholder="Password"> <br> 
+                                <input type="password" name="password" placeholder="Confirm Password">                   
+                            </div>
+                        </div>
+
+                        <div class="ticked">
+                            <div class="check">
+                                <input type="checkbox" id="myCheck" onclick="myFunction()" class="mycheck">
+                                <h4>Remember me</h4>
+                            </div>        
+                        </div>
+
+                        <div class="sign-btn">
+                            <button>
+                                <p>Sign up</p>
+                            </button>
+                        </div>
+
+                    <div class="new-to-flimia">
+                        <h4>Already have an account? <span id="back" onclick="myFunction()">Sign in</span></h4>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="second-section">
+        <div class="container">
+            <div class="section2">
+                <div class="netflix stress"></div>
+                <div class="hbo stress"></div>
+                <div class="hulu stress"></div>
+                <div class="disney stress"></div>
+                <div class="prime-video stress"></div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="thrid-section">
+        <div class="container">
+            <div class="section3">
+                <div class="update">
+                    <h3>10 Most Popular Movies this Week</h3>
+                    <p>Discover the top,  most popular movies avaiable now! Across <br>
+                    theaters, streaming, and on-demand.</p>
+                </div>
+
+
+                <div class="carousel owl-carousel">
+                    <div class="card card-1">
+                    </div>
+                    <div class="card card-2"></div>
+                    <div class="card card-3"></div>
+                    <div class="card card-4"></div>
+                    <div class="card card-5"></div>
+                </div>
+            </div>    
+        </div>
+    </section>
+
+
+    <section class="fourth-section">
+        <div class="container">
+            <div class="section4">
+                <div class="join">
+                    <div class="join-headers">
+                        <h3>Join Movie Room <br> with People</h3>
+                        <p>You can join group of people, friends <br>
+                        and family to watch a movie together <br>
+                        and have a good time.</p>
+                    </div>
+
+                    <div class="banner-button">
+                        <a href="">Learn More</a>
+                    </div>
+
+                    <div class="numbers">
+                        <div class="num-one">
+                            <h3>200+</h3>
+                            <p>Movies</p>
+                        </div>
+
+                        <div class="num-two">
+                            <h3>4180+</h3>
+                            <p>Memebers</p>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="join-cards">
+                    <div class="join-cards-img"></div>
+                </div>
+            </div>    
+        </div>
+    </section>
+
+
+    <section class="fifth-section">
+        <div class="container">
+            <div class="section5">
+                <div class="comment-header">
+                    <div class="comment-header-text">
+                        <h3>What People Say <br>
+                         About <span style="color: #428dfd;;">"Together"</span></h3>
+                        <p>People are very positive about our services, and here's <br>
+                        some review from our Movie Lover</p> 
+                    </div>
+                </div>
+
+                <section id="testimonials">
+                    <div class="testimonial-box-container">
+                        <div class="testimonial-box">
+                            <div class="box-top">
+                                <div class="profile">
+                                    <div class="profile-img"></div>
+                                    <div class="name-user">
+                                        <strong>Jeffery Dahmer</strong>
+                                        <span>@jefferydahmer</span>
+                                    </div>
+                                </div>
+                                <div class="reviews">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                            </div>
+                            <div class="client-comment">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                   Exercitationem, quaerat quis? Provident temporibus architecto 
+                                   asperiores nobis maiores nisi a. Quae doloribus ipsum aliquam tenetur 
+                                   voluptates incidunt blanditiis sed atque cumque.</p>
+                            </div>
+                        </div>
+                        <div class="testimonial-box">
+                            <div class="box-top">
+                                <div class="profile">
+                                    <div class="profile-img"></div>
+                                    <div class="name-user">
+                                        <strong>John F. kennedy</strong>
+                                        <span>@jfkennedy</span>
+                                    </div>
+                                </div>
+                                <div class="reviews">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                            <div class="client-comment">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                   Exercitationem, quaerat quis? Provident temporibus architecto 
+                                   asperiores nobis maiores nisi a. Quae doloribus ipsum aliquam tenetur 
+                                   voluptates incidunt blanditiis sed atque cumque.</p>
+                            </div>
+                        </div>
+                        <div class="testimonial-box">
+                            <div class="box-top">
+                                <div class="profile">
+                                    <div class="profile-img"></div>
+                                    <div class="name-user">
+                                        <strong>Harry Potter</strong>
+                                        <span>@harrypotter</span>
+                                    </div>
+                                </div>
+                                <div class="reviews">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                            </div>
+                            <div class="client-comment">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                   Exercitationem, quaerat quis? Provident temporibus architecto 
+                                   asperiores nobis maiores nisi a. Quae doloribus ipsum aliquam tenetur 
+                                   voluptates incidunt blanditiis sed atque cumque.</p>
+                            </div>
+                        </div>
+                        <div class="testimonial-box">
+                            <div class="box-top">
+                                <div class="profile">
+                                    <div class="profile-img"></div>
+                                    <div class="name-user">
+                                        <strong>Sussy Hot Cakes</strong>
+                                        <span>@sussyhotjcakes</span>
+                                    </div>
+                                </div>
+                                <div class="reviews">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                            </div>
+                            <div class="client-comment">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                   Exercitationem, quaerat quis? Provident temporibus architecto 
+                                   asperiores nobis maiores nisi a. Quae doloribus ipsum aliquam tenetur 
+                                   voluptates incidunt blanditiis sed atque cumque.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                            
+        
+            </div>
+        </div>
+    </section>
+
+    <section class="sixth-section">
+        <div class="container">
+            <div class="section6">
+                <div class="download-app-header">
+                    <h3>Our Mobile Apps now <br> is Avaiable</h3>
+                    <p>Our App Now Available on App Store and Google Playstore</p>
+                </div>
+
+                <div class="stores-icon">
+                    <div class="store-icon"></div>
+                </div>
+            </div>    
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="content">
+          <div class="left box">
+            <div class="topic">
+                <div class="topic-img">
+                    <img src="./img/Flixia logo.PNG" alt="">
+                </div>
+            </div>
+            <div class="left-box-writeup">
+                <h3>Ready to get Started?</h3>
+                <p>The fastest and simple way to generate growing business <br>
+                solutions with our products</p>
+            </div>
+            <form action="#">
+               <input type="text" placeholder="Enter email address">
+               <input type="submit" name="" value="Send">
+            </form>
+          </div>
+
+
+          <div class="middle box">
+                <div class="org-series">Original Series</div>
+                <div><a href="#">Apple TV+</a></div>
+                <div><a href="#">Disney+</a></div>
+                <div><a href="#">HBO</a></div>
+                <div><a href="#">Netflix</a></div>
+          </div>
+
+           <div class="middle middles box">
+                <div class="org-series">Category</div>
+                <div><a href="#">Action</a></div>
+                <div><a href="#">Adventure</a></div>
+                <div><a href="#">Animations</a></div>
+                <div><a href="#">Drama</a></div>
+                <div><a href="#">Horror</a></div>
+           </div>
+
+          <!-- <div class="right box">
+            <div class="upper">
+              <div class="topic">About us</div>
+              <p>CodingLab is a channel where you can learn HTML,
+              CSS, and also JavaScript along with creative CSS Animations and Effects.</p>
+            </div>
+            <div class="lower">
+              <div class="topic">Contact us</div>
+              <div class="phone">
+                <a href="#"><i class="fas fa-phone-volume"></i>+007 9089 6767</a>
+              </div>
+              <div class="email">
+                <a href="#"><i class="fas fa-envelope"></i>abc@gmail.com</a>
+              </div>
+            </div>
+          </div> -->
+        </div>
+        <div class="bottom">
+            <div class="container">
+                <p>Copyright &#169; 2020 <a href="#">iPlayDaniel</a> All rights reserved</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
