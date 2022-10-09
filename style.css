@@ -1250,6 +1250,14 @@ footer a:hover{
 
     .nav-signup:hover{
         pointer-events: none;
+        /* width: 100px; */
+        text-align: center;
+        cursor: pointer;
+        padding: 0;
+        background: none;
+        border-radius: 0;
+        transition: 0;
+        margin-top: 0;    
     }
         
     .navigation .links{
