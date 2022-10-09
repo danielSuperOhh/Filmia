@@ -135,7 +135,7 @@ body{
     margin-top: 0;
 }
 
-.nav-signup:hover p{
+.nav-signup:hover a{
     color: #fafafa;
 }
 
@@ -1248,6 +1248,10 @@ footer a:hover{
         z-index: 500;
     }
 
+    .nav-signup:hover{
+        background: none;
+    }
+        
     .navigation .links{
         margin-top: 20px;
         display: grid;
