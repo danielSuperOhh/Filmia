@@ -15,7 +15,6 @@
     --color-dark: #363949;
     --color-light: rgba(132, 139, 200, 0.18);
     --alt-background: #F2F0F0;
-    --alt-dark:#363949;
 
     --card-border-radius: 2rem;
     --padding: 1.2rem;
@@ -1256,7 +1255,7 @@ footer a:hover{
     }
 
     .nav-signup a{
-        color: var(--alt-dark);
+        color: var(--color-dark);
         margin-left: -7px;
     }
 
