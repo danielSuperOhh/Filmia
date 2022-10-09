@@ -1249,7 +1249,7 @@ footer a:hover{
     }
 
     .nav-signup:hover{
-        background: none;
+        pointer-events: none;
     }
         
     .navigation .links{
